@@ -1,6 +1,6 @@
-## Used Nissan Car Listings Analysis
+# Used Nissan Car Listings Analysis
 
-# Project 1 - Group IV
+## Project 1 - Group IV
 Michael Cherkassky
 Catie Clark
 Garet Douglass
@@ -23,25 +23,6 @@ This data was obtained on https://www.kaggle.com/jpayne/852k-used-car-listings#t
 
 Data included: year, make, model, price, VIN, city, state
 
-
-## II. After initial research, collaborate on findings and comprise data to an overall theme
-Educated Recommendation - What used Nissan vehicle do we recommend for our hypothetical customer?
-
-1. Problem:
-Shopping for a used vehicle can be difficult. You want to make the best investment, but it's hard to know if you are getting the best price/value or if there are other vehicles listed that best suit your needs.  
-
-2. Goal:
-What used Nissan car do we recommend user should buy within their ** qualifiers: budget, mileage, and geographical location of listing. ** (need to define)
-Is the asking price for this particular car reasonable given the information provided in the dataset. 
-What are other vehicles could we recommend? (Slightly overbudget, higher mileage, outside geographic location.)
-
-This data was obtained on https://www.kaggle.com/jpayne/852k-used-car-listings#true_car_listings.csv and contains the following limitations:
-
-    - Only used cars made by Nissan
-    - Model years between 1997-2017
-    - Listings that were live on September 24, 2017
-
-Data included: year, make, model, price, VIN, city, state
 
 # Vehicle availability in TN and surrounding area & general trends
 
@@ -106,3 +87,19 @@ Data included: year, make, model, price, VIN, city, state
 - Best car to buy this year for resale next year?
     - New-ish year of the newest model
     - Older year of an older model
+
+
+# II. After initial research, collaborate on findings and comprise data to an overall theme
+## Educated Recommendation - What used Nissan vehicle do we recommend for our hypothetical customer?
+
+1. Problem:
+Shopping for a used vehicle can be difficult. You want to make the best investment, but it's hard to know if you are getting the best price/value or if there are other vehicles listed that best suit your needs.  
+
+2. Goal:
+What used Nissan car do we recommend user should buy within their ** qualifiers: 
+  Budget: $15,000
+  Mileage: 50,000 or under
+  Location: Tennessee of listing.
+  
+Is the asking price for this particular car reasonable given the information provided in the dataset. 
+What are other vehicles could we recommend? (Slightly overbudget, higher mileage, outside geographic location.)
