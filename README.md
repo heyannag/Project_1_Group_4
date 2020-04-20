@@ -7,8 +7,8 @@ Garet Douglass
 Anna Givens
 John Patten
 
-## Objective 
-# I. Research Data from True Car Listing and analyze the information provided to determine the following;
+# Objective 
+## I. Research Data from True Car Listing and analyze the information provided to determine the following;
   - Vehicle availability in TN and US Market
   - Vehicles available by Model Year
   - Model Year and Mileage Impact on Price
@@ -17,14 +17,14 @@ John Patten
 
 This data was obtained on https://www.kaggle.com/jpayne/852k-used-car-listings#true_car_listings.csv and contains the following limitations:
 
-    - We limited the data to only look at used cars made by Nissan (original dataset includes over 50 makes)
-    - Model Years between 1997-2017
-    - Listings that were live on September 24, 2017
+ - We limited the data to only look at used cars made by Nissan (original dataset includes over 50 makes)
+ - Model Years between 1997-2017
+ - Listings that were live on September 24, 2017
 
 Data included: year, make, model, price, VIN, city, state
 
 
-# II. After initial research, collaborate on findings and comprise data to an overall theme
+## II. After initial research, collaborate on findings and comprise data to an overall theme
 Educated Recommendation - What used Nissan vehicle do we recommend for our hypothetical customer?
 
 1. Problem:
@@ -43,9 +43,9 @@ This data was obtained on https://www.kaggle.com/jpayne/852k-used-car-listings#t
 
 Data included: year, make, model, price, VIN, city, state
 
-## Vehicle availability in TN and surrounding area & general trends
+# Vehicle availability in TN and surrounding area & general trends
 
-# Findings
+## Findings
 
 - United States: 
     - southeast/southwest: Altima most available (only 1 state did not have Altima as highest number of listings)
@@ -65,23 +65,23 @@ Data included: year, make, model, price, VIN, city, state
 ![TN Availability](PNG_Files/1_availability_tennessee.png)
 
 
-## Vehicles available by Model Year in Overall Market 
+# Vehicles available by Model Year in Overall Market 
 
 ![Model by Model Year](PNG_Files/2_Model_by_Model_Year.png)
 ![Model Year by Model](PNG_Files/2_MY_by_Model.png)
 ![Total Listsings by Model Year](PNG_Files/2_Total_Vehicles_by_Model_Year_bar.png)
 ![Total Listsings by Model Year(Scatter)](PNG_Files/2_Total_Vehicles_by_Model_Year.png)
 
-## Model Year and Mileage impact on price
+# Model Year and Mileage impact on price
 
 ![Mileage vs Resale Price](PNG_Files/3_Mileage_Resale_Price.png)
 ![Model Year vs Resale Price](PNG_Files/3_Model_Year_Resale_Price.png)
 
-## Model Year and Resale Price
+# Model Year and Resale Price
 
 ![Resale Price Distribution by Model](PNG_Files/4_Price_Distribution_Model.png)
 
-# Findings
+## Findings
 - The average price of a used Nissan is $16,602 (USD)
 - When sorting by the highest price, there are some listings of non-luxury or sport vehicles (Altima, Sentra) that are priced extremely high and seem inaccurate (99,999).  This may be an attempt by the listing party to appear at the top of the list when sorted by price. 
 - GT-Rs have the highest entry price of any used Nissan listing in this dataset. 
@@ -93,13 +93,13 @@ Data included: year, make, model, price, VIN, city, state
 
 ![Resale Price Distribution by Model Year](PNG_Files/4_Price_Distribution_Model_Year.png)
 
-## Residual Value by Model and Model Year
+# Residual Value by Model and Model Year
 
 ![Depreceiation by Model](PNG_Files/5_Depreceiation_by_Model.png)
 
 ![Depreceiation in 5 Years](PNG_Files/5_Depreciation_by_Genesis_Year.png)
 
-# Findings:
+## Findings:
 
 - Residual value is related to the lifespan of the *model*.
 - Possible explanation: novelty vs. substitution.
