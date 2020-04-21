@@ -145,3 +145,6 @@ Obtain dataset and collaborate within our group to answer a set of self-drafted 
   
 * Is the asking price for this particular car reasonable given the information provided in the dataset. 
 What are other vehicles could we recommend? (Slightly overbudget, higher mileage, outside geographic location.)
+
+## Review Altima Models Available in TN
+* Utilize 
