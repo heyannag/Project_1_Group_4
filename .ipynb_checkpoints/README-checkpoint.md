@@ -162,5 +162,5 @@ What are other vehicles could we recommend? (Slightly overbudget, higher mileage
       altima_df = tn_df.loc[tn_df['New_Model']=='Altima']
       tn_df.set_index('Vin').head(30)
       '''
-![Year Pie]('PNG_Files/Part_2_Years_Pie.png')      
+      
 ![Year Pice Years]('PNG_Files/Part_2_Price_Years.png')
