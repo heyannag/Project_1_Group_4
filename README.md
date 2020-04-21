@@ -125,16 +125,14 @@ Obtain dataset and collaborate within our group to answer a set of self-drafted 
 
 # II. After initial research, collaborate on findings and comprise data to an overall theme
 ## All about Altimas! 
-* Now that we've seen the data behind availability and 
-
-
-## What used Nissan Altima do we recommend for our hypothetical customer?
+* Now that we've seen the data regarding factors like availability and residual value, let's see how we can apply this to buying a used car. 
 
 ### Problem:
-  * Shopping for a used vehicle can be difficult. You want to make the best investment, but it's hard to know if you are getting the best price/value or if there are other vehicles listed that best suit your needs.  
+  * Shopping for a used vehicle can be difficult. You want to make the best investment, but it's hard to know if you are getting the best price/value or if there are other vehicles listed that best suit your needs. 
+  * Our hypothetical customer is looking for a Nissan Altima with a budget of $15,000, mileage of 50,000 or below that is listed in Tennessee. 
 
 ### Goal:
-* What used Nissan Altima do we recommend user should buy within their **qualifiers: 
+* Find a listing of a used Nissan Altima that we would recommend within these **qualifiers: 
  * **Budget: <= $15,000
  * **Mileage: <= 50,000
  * **Location: Tennessee 
