@@ -42,9 +42,6 @@ Contains the following limitations:
 
 For the purpose of this project, we limited the data to **only include Nissan** makes which reduced the 1mil rows of the original dataset to ~60k rows. Please see the end of this document for the full list of limitations. 
 
-![Nissan Logo](PNG_Files/TC_Nissan.jpg)
-
-
 
 # Vehicle Availability in TN and Surrounding Areas + General Trends
 Catie Clark
@@ -103,7 +100,7 @@ Anna Givens
 - The average price of a used Nissan is $16,602 (USD)
 - When sorting by the highest price, there are some listings of non-luxury or sport vehicles (Altima, Sentra) that are priced extremely high and seem inaccurate (99,999).  This may be an attempt by the listing party to appear at the top of the list when sorted by price. 
 - GT-Rs have the highest entry price of any used Nissan listing in this dataset. 
-- The lower quartile of price(USD) is 1,500 
+- The lower quartile of price(USD) is $1,500 
   - 25% $11,950 
   - 50% $15,000 
   - 75% $19,990 
