@@ -147,4 +147,20 @@ Obtain dataset and collaborate within our group to answer a set of self-drafted 
 What are other vehicles could we recommend? (Slightly overbudget, higher mileage, outside geographic location.)
 
 ## Review Altima Models Available in TN
-* Utilize 
+* Determining model availability in Tennessee
+     
+       '''
+       tn_df = nissan_df.loc[nissan_df['State']==' TN']
+       tn_df.set_index('Vin')
+       tnmodel = tn_df.groupby('New_Model')
+       tnmodelcount = tnmodel['Vin'].count()
+       tnmodelcount.head(10) 
+       '''
+* Limit data to only include Altimas
+
+      '''
+      altima_df = tn_df.loc[tn_df['New_Model']=='Altima']
+      tn_df.set_index('Vin').head(30)
+      '''
+      
+![Year Pice Years]('PNG_Files/Part_2_Price_Years.png')
