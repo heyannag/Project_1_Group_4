@@ -1,6 +1,6 @@
-# Used Nissan Car Listings Analysis
-
-## Project 1 - Group IV
+# Project 1 - Collaborations with Git
+Group IV
+---
 Michael Cherkassky
 
 Catie Clark
@@ -11,8 +11,18 @@ Anna Givens
 
 John Patten
 
+# Used Nissan Car Listings Analysis
 
 # Objective 
+Obtain dataset to 
+
+Questions you found interesting and what motivated you to answer them
+Where and how you found the data you used to answer these questions
+The data exploration and cleanup process (accompanied by your Jupyter Notebook)
+The analysis process (accompanied by your Jupyter Notebook)
+Your conclusions, which should include a numerical summary and visualizations of that summary
+The implications of your findings: what do your findings mean? 
+
 ## I. Research and Analyze Data from True Car Listing
 Determine the following:
   - Vehicle availability in TN and US Market
@@ -32,7 +42,7 @@ Contains the following limitations:
 
 For the purpose of this project, we limited the data to **only include Nissan** makes which reduced the 1mil rows of the original dataset to ~60k rows. Please see the end of this document for the full list of limitations. 
 
-![Nissan Logo](PNG_Files/Nissan_logo.jpg/200/300?style=centerme)
+![Nissan Logo](PNG_Files/Nissan_logo.jpg)
 
 
 
