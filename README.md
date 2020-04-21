@@ -141,6 +141,7 @@ Obtain dataset and collaborate within our group to answer a set of self-drafted 
 ### Goal:
 * Find a listing of a used Nissan Altima that we would recommend within these **qualifiers: 
  * **Budget: <= $15,000
+ * **Mileage <= 40,000
  * **Location: Tennessee 
   
 * Is the asking price for this particular car reasonable given the information provided in the dataset. 
@@ -179,3 +180,11 @@ What are other vehicles could we recommend? (Slightly overbudget, higher mileage
       miles_df = altima_df.loc[altima_df['Mileage']<=40000]
       altima_df.set_index('Vin').head()
       '''
+### Recommendation + Additional Options
+| Recommendation | Vin	|Price | Year |	Mileage |	City,	State |	Model |
+|---  |---   |---   |---      |---      |---    |---    |							
+| Best |1N4AL3AP3GC218263 |	$12,495 |	2016 |	32,341 |	Columbia	TN	| Altima |
+| Second | 1N4AL3AP7GN367909	| $13,425	| 2016 |	40,256 |	Memphis	TN	|	Altima |
+| Third | 1N4AL3AP3GC197866	| $13,825	| 2016	| 38,536	| Nashville	TN	|	Altima |
+| Fourth, 1 yr Older /Close to Budget | 1N4AL3AP5FC431407	| $14,225 |	2015	| 27,753	| Clarksville	TN	|	Altima |
+| Fifth, Slightly Over Mileage | 1N4AL2AP0CN410488 |	$7,975 |	2012	| 51,003 |	Knoxville	TN	|	Altima |
