@@ -11,6 +11,7 @@ Group IV
 Obtain dataset and collaborate within our group to answer a set of self-drafted questions by utilizing Pandas dataframes and visualizations through MatPlotLib. 
   * Jupyter Notebook Files located in repository 
       * Cleaned Data.ipynb, Group Project-(FINAL).ipynb
+  * Below you will find each individual's question, visualizations and the conclusions of the questions/findings.
 
 # Used Nissan Car Listings Analysis
 
@@ -32,8 +33,6 @@ Obtain dataset and collaborate within our group to answer a set of self-drafted 
 
 * **NOTE** For the purpose of this project, we limited the data to **only include Nissan** makes which reduced the 1mil rows of the original dataset to ~65k rows. *Please see the end of this document for the full list of limitations.* 
 
---------
-# Below you will find each individual's question, visualizations and the conclusions of the questions/findings. 
 --------
 
 # Vehicle Availability in TN and Surrounding Areas + General Trends | Catie Clark
