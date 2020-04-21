@@ -147,6 +147,12 @@ Obtain dataset and collaborate within our group to answer a set of self-drafted 
 What are other vehicles could we recommend? (Slightly overbudget, higher mileage, outside geographic location.)
 
 ## Review Altima Models Available in TN
+### Null Hypothesis  
+* Can we find a used Nissan Altima listed in Tennessee that fits our hypothetical customer's requirements?
+    * Hypothesis - If the Nissan Altima is the most listed vehicle in Tennessee and the mean price of all used Nissan's is 16,602, then we can conclude there are listings that meet the requirements.
+    
+    * Null Hypothesis - If the Nissan Altima is not the most listed vehicle in Tennessee resulting in fewer listings, then we will not find a vehicle that best suits the requirements.
+
 * Determining model availability in Tennessee
      
        '''
@@ -156,11 +162,18 @@ What are other vehicles could we recommend? (Slightly overbudget, higher mileage
        tnmodelcount = tnmodel['Vin'].count()
        tnmodelcount.head(10) 
        '''
+* Determine the model with the most listings, returns *Altima
+
+      '''
+      tn_df.New_Model.value_counts().head(1).index[0]
+      '''
 * Limit data to only include Altimas
 
       '''
       altima_df = tn_df.loc[tn_df['New_Model']=='Altima']
       tn_df.set_index('Vin').head(30)
       '''
-![Year Pie]('PNG_Files/Part_2_Years_Pie.png')      
+    
+![Year Pie]('PNG_Files/Part_2_Years_Pie.png')    
+
 ![Year Pice Years]('PNG_Files/Part_2_Price_Years.png')
