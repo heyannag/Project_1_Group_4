@@ -42,7 +42,7 @@ Contains the following limitations:
 
 For the purpose of this project, we limited the data to **only include Nissan** makes which reduced the 1mil rows of the original dataset to ~60k rows. Please see the end of this document for the full list of limitations. 
 
-![Nissan Logo](PNG_Files/Nissan_logo.jpg)
+![Nissan Logo](PNG_Files/TC_Nissan.jpg)
 
 
 
