@@ -167,13 +167,15 @@ What are other vehicles could we recommend? (Slightly overbudget, higher mileage
       '''
       tn_df.New_Model.value_counts().head(1).index[0]
       '''
-* Limit data to only include Altimas
+* Limit data to only include Altimas, save new dataframe
 
       '''
       altima_df = tn_df.loc[tn_df['New_Model']=='Altima']
       tn_df.set_index('Vin').head(30)
       '''
-    
-![Year Pie]('PNG_Files/Part_2_Years_Pie.png')    
+* Limit data to only include Altimas with less than 40,000 miles, save new dataframe
 
-![Year Pice Years]('PNG_Files/Part_2_Price_Years.png')
+      '''
+      miles_df = altima_df.loc[altima_df['Mileage']<=40000]
+      altima_df.set_index('Vin').head()
+      '''
