@@ -11,19 +11,18 @@ Anna Givens
 
 John Patten
 
+## Objective 
+  Obtain dataset and collaborate within our group to answer a set of pre-determined questions by utilizing Pandas dataframes and visualizations through MatPlotLib. 
+  
+[Data Cleanup Process](Cleaned Data.pynb)
+[Group Analysis](Group Project-(FINAL).ipynb)
+
+Below you will find each individual's question, visualizations and the conclusions of the questions/findings. 
+
 # Used Nissan Car Listings Analysis
 
-# Objective 
-Obtain dataset to 
-
-Questions you found interesting and what motivated you to answer them
-Where and how you found the data you used to answer these questions
-The data exploration and cleanup process (accompanied by your Jupyter Notebook)
-The analysis process (accompanied by your Jupyter Notebook)
-Your conclusions, which should include a numerical summary and visualizations of that summary
-The implications of your findings: what do your findings mean? 
-
 ## I. Research and Analyze Data from True Car Listing
+
 Determine the following:
   - Vehicle availability in TN and US Market
   - Vehicles available by Model Year
@@ -32,7 +31,7 @@ Determine the following:
   - Residual Value by Model and Model Year
 
 
-Our dataset was obtained on [Kaggle - Used Car Listings] (https://www.kaggle.com/jpayne/852k-used-car-listings#true_car_listings.csv). 
+Our dataset was obtained on Kaggle - [Used Car Listings](https://www.kaggle.com/jpayne/852k-used-car-listings#true_car_listings.csv). 
 **Data included: year, make, model, price, VIN, city, state**
 
 Contains the following limitations:
@@ -40,12 +39,10 @@ Contains the following limitations:
  - Listings that were live on September 24, 2017
  - Model Years between 1997-2017
 
-For the purpose of this project, we limited the data to **only include Nissan** makes which reduced the 1mil rows of the original dataset to ~60k rows. Please see the end of this document for the full list of limitations. 
+**NOTE** For the purpose of this project, we limited the data to **only include Nissan** makes which reduced the 1mil rows of the original dataset to ~60k rows. Please see the end of this document for the full list of limitations. 
 
-
-# Vehicle Availability in TN and Surrounding Areas + General Trends
-Catie Clark
-
+# Vehicle Availability in TN and Surrounding Areas + General Trends, Catie Clark
+What Nissan model is the most available in Tennessee?
 
 ## Findings:
 - Prework, group the state by region/territory names for comparative analysis 
@@ -69,18 +66,16 @@ Catie Clark
 ![TN Availability](PNG_Files/1_availability_tennessee.png)
 
 
-# Vehicles available by Model Year in Overall Market 
-Garet Douglass
-
+# Vehicles available by Model Year in Overall Market, Garet Douglass
+**NEED INFO**
 
 ![Model by Model Year](PNG_Files/2_Model_by_Model_Year.png)
 ![Model Year by Model](PNG_Files/2_MY_by_Model.png)
 ![Total Listsings by Model Year](PNG_Files/2_Total_Vehicles_by_Model_Year_bar.png)
 ![Total Listsings by Model Year(Scatter)](PNG_Files/2_Total_Vehicles_by_Model_Year.png)
 
-# Model Year and Mileage Impact on Price
-Michael Cherkassky
-
+# Model Year and Mileage Impact on Price, Michael Cherkassky
+What is the correlation between odometer reading and sale price for Nissan models?
 
 ## Findings:
 ·        Both age and mileage of a given Nissan vehicle hold only a moderate correlation to the vehicle’s price.
@@ -90,8 +85,8 @@ Michael Cherkassky
 ![Mileage vs Resale Price](PNG_Files/3_Mileage_Resale_Price.png)
 ![Model Year vs Resale Price](PNG_Files/3_Model_Year_Resale_Price.png)
 
-# Model Year and Resale Price
-Anna Givens
+# Model Year and Resale Price, Anna Givens
+What is the relationship between Nissan model and resale price?
 
 
 ![Resale Price Distribution by Model](PNG_Files/4_Price_Distribution_Model.png)
@@ -106,10 +101,8 @@ Anna Givens
   - 75% $19,990 
   - and upper quartile $121,495
 
-![Resale Price Distribution by Model Year](PNG_Files/4_Price_Distribution_Model_Year.png)
-
-# Residual Value by Model and Model Year
-John Patten
+# Residual Value by Model and Model Year, John Patten
+What is the model depreciation over time as estimated by the listing price?
 
 
 ![Depreceiation by Model](PNG_Files/5_Depreceiation_by_Model.png)
@@ -124,6 +117,24 @@ John Patten
     - New-ish year of the newest model
     - Older year of an older model
 
+
+# List of Limitations
+1. Listings that were live on September 24, 2017 on Truecar.com
+2. Model Years between 1997-2017
+3. Original dataset included over 1mil rows and was too large to work with for the purpose of this project. 
+4. We then reduced the original dataset to only show Make == Nissan and saved that as a new dataframe in which we all worked out of. 
+
+          nissan_df = car_df.loc[car_df["Make"]=="Nissan"]
+          nissan_df.head()
+          '''
+
+5. The 'Model' column was a challenge to work with, it included extra information with the model that we weren't interested in. The additional characters were both numbers and letters, which made splitting the values more challenging. To resolve this roadblock we created a new column 'New_Model' which only included the model names from a nissan_models.csv. This allowed us to cycle through each row in a for loop and create a 'New_Model' column with the information we were seaking to evaluate. 
+
+'''  
+
+      for model in models:
+          nissan_df.loc[nissan_df["Model"].str.contains(model, regex=False), "New_Model"] = model
+          '''
 
 # II. After initial research, collaborate on findings and comprise data to an overall theme
 ## Educated Recommendation - What used Nissan vehicle do we recommend for our hypothetical customer?
