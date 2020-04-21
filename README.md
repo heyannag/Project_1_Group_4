@@ -40,6 +40,13 @@ Obtain dataset and collaborate within our group to answer a set of self-drafted 
 
 ## Findings:
 * Prework, group the state by region/territory names for comparative analysis 
+
+            '''
+            #Grouping the most available car for each state by region
+            region = mostavailable_df.groupby('Region')
+            regioncount = region['Most Available Model'].value_counts()
+            regioncount
+            '''
 ![Regional Comparison](PNG_Files/1_region_availability.png)
     
 * Nissan: **total listings 66,250**
@@ -129,12 +136,11 @@ Obtain dataset and collaborate within our group to answer a set of self-drafted 
 
 ### Problem:
   * Shopping for a used vehicle can be difficult. You want to make the best investment, but it's hard to know if you are getting the best price/value or if there are other vehicles listed that best suit your needs. 
-  * Our hypothetical customer is looking for a Nissan Altima with a budget of $15,000, mileage of 50,000 or below that is listed in Tennessee. 
-
+  * Our hypothetical customer is looking for a Nissan Altima listed in Tennessee with a budget of $15,000. What car do we recommend based on what is available in this dataset?
+  
 ### Goal:
 * Find a listing of a used Nissan Altima that we would recommend within these **qualifiers: 
  * **Budget: <= $15,000
- * **Mileage: <= 50,000
  * **Location: Tennessee 
   
 * Is the asking price for this particular car reasonable given the information provided in the dataset. 
