@@ -1,4 +1,4 @@
-# Project 1 - Collaborations with Git
+# Project 1 | Collaborations with Git
 Group IV
 ---
 * Michael Cherkassky
@@ -8,7 +8,9 @@ Group IV
 * John Patten
 
 ## Objective 
-  Obtain dataset and collaborate within our group to answer a set of pre-determined questions by utilizing Pandas dataframes and visualizations through MatPlotLib. Jupyter Notebook Files located in repository (Cleaned Data.ipynb, Group Project-(FINAL).ipynb)
+Obtain dataset and collaborate within our group to answer a set of self-drafted questions by utilizing Pandas dataframes and visualizations through MatPlotLib. 
+  * Jupyter Notebook Files located in repository 
+      * Cleaned Data.ipynb, Group Project-(FINAL).ipynb
 
 # Used Nissan Car Listings Analysis
 
@@ -22,15 +24,16 @@ Group IV
 
 
 * Our dataset was obtained via [Kaggle - Used Car Listings](https://www.kaggle.com/jpayne/852k-used-car-listings#true_car_listings.csv). 
-  *  **Data included: year, make, model, price, VIN, city, state**
-
+  *  Data included
+     : Year, Make, Model, Price, VIN, City, State
 * Contains the following limitations:
- * Listings that were live on September 24, 2017
- * Model Years between 1997-2017
+    * Listings that were live on September 24, 2017
+    * Model Years between 1997-2017
 
-**NOTE** For the purpose of this project, we limited the data to **only include Nissan** makes which reduced the 1mil rows of the original dataset to ~60k rows. Please see the end of this document for the full list of limitations. 
+* **NOTE** For the purpose of this project, we limited the data to **only include Nissan** makes which reduced the 1mil rows of the original dataset to ~65k rows. *Please see the end of this document for the full list of limitations.* 
 
-* Below you will find each individual's question, visualizations and the conclusions of the questions/findings. 
+--------
+# Below you will find each individual's question, visualizations and the conclusions of the questions/findings. 
 --------
 
 # Vehicle Availability in TN and Surrounding Areas + General Trends, Catie Clark
