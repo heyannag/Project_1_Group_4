@@ -2,15 +2,15 @@
 
 ## Project 1 - Group IV
 Michael Cherkassky
----
+
 Catie Clark
----
+
 Garet Douglass
----
+
 Anna Givens
----
+
 John Patten
----
+
 
 # Objective 
 ## I. Research and Analyze Data from True Car Listing
@@ -38,7 +38,7 @@ For the purpose of this project, we limited the data to **only include Nissan** 
 
 # Vehicle Availability in TN and Surrounding Areas + General Trends
 Catie Clark
----
+
 
 ## Findings:
 - Prework, group the state by region/territory names for comparative analysis 
@@ -64,7 +64,7 @@ Catie Clark
 
 # Vehicles available by Model Year in Overall Market 
 Garet Douglass
----
+
 
 ![Model by Model Year](PNG_Files/2_Model_by_Model_Year.png)
 ![Model Year by Model](PNG_Files/2_MY_by_Model.png)
@@ -73,7 +73,7 @@ Garet Douglass
 
 # Model Year and Mileage Impact on Price
 Michael Cherkassky
----
+
 
 ## Findings:
 ·        Both age and mileage of a given Nissan vehicle hold only a moderate correlation to the vehicle’s price.
@@ -85,7 +85,7 @@ Michael Cherkassky
 
 # Model Year and Resale Price
 Anna Givens
----
+
 
 ![Resale Price Distribution by Model](PNG_Files/4_Price_Distribution_Model.png)
 
@@ -103,7 +103,7 @@ Anna Givens
 
 # Residual Value by Model and Model Year
 John Patten
----
+
 
 ![Depreceiation by Model](PNG_Files/5_Depreceiation_by_Model.png)
 
