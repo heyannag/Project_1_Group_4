@@ -42,17 +42,17 @@ Obtain dataset and collaborate within our group to answer a set of self-drafted 
 * Prework, group the state by region/territory names for comparative analysis 
 ![Regional Comparison](PNG_Files/1_region_availability.png)
     
-* Nissan: total listings **66,250**
+* Nissan: **total listings 66,250**
     * when grouped by state --> 59 (prior to consolidating duplicates, VA)
     * All Models listed in Tennessee: 'Versa', 'Altima', 'Sentra', 'Rogue', 'Maxima', 'Murano','Titan', 'Quest', 'Pathfinder', 'Xterra', 'NV', 'Armada', '370Z','GT-R'
     
-* United States: 
+* **United States:** 
     * southeast/southwest: Altima most available (only 1 state did not have Altima as highest number of listings)
     * midwest (plains): there are more states with Rogue as highest number of listings than Altima as the highest
     * Alaska: only state with most Pathfinder listings
     * Nevada/Hawaii: only two states with most Versa listings
 
-* Tennessee: 1976 listings, Altima is the most available
+* **Tennessee:** 1976 listings, Altima is the most available
 
 ![USA Availability](PNG_Files/1_availability_US.png)
 ![TN Availability](PNG_Files/1_availability_tennessee.png)
@@ -69,8 +69,8 @@ Obtain dataset and collaborate within our group to answer a set of self-drafted 
 * What is the correlation between odometer reading and sale price for Nissan models?
 
 ## Findings:
-* Both age and mileage of a given Nissan vehicle hold only a moderate correlation to the vehicle’s price.
-* With a 50% correlation, the vehicle’s mileage only slightly edges out the vehicle’s age (47% correlation).
+* Both age and mileage of a given Nissan vehicle hold **only a moderate correlation** to the vehicle’s price.
+* With a **50% correlation**, the vehicle’s mileage only slightly edges out the vehicle’s age (47% correlation).
 * With these figures, we cannot say either mileage or age have a strong correlation to the vehicle’s listing price, so a potential buyer should not hold much weight in one category over the other.
 
 ![Mileage vs Resale Price](PNG_Files/3_Mileage_Resale_Price.png)
@@ -80,9 +80,9 @@ Obtain dataset and collaborate within our group to answer a set of self-drafted 
 * What is the relationship between Nissan model and resale price?
 
 ## Findings:
-* The average price of a used Nissan is $16,602 (USD)
-* When sorting by the highest price, there are some listings of non-luxury or sport vehicles (Altima, Sentra) that are priced extremely high and seem inaccurate (99,999).  This may be an attempt by the listing party to appear at the top of the list when sorted by price. 
-* GT-Rs have the highest entry price of any used Nissan listing in this dataset. 
+* The mean price of a used Nissan is **$16,602 (USD)**
+* When sorting by the highest price, there are some listings of non-luxury or sport vehicles (Altima, Sentra) that are priced extremely high and seem inaccurate (ex. 99,999).  This may be an attempt by the listing party to appear at the top of the list when sorted by price or a typo. 
+* GT-Rs have the highest entry price in the resale market of any used Nissan listing in this dataset. 
 * The lower quartile of price(USD) is $1,500 
   * 25% $11,950 
   * 50% $15,000 
@@ -99,12 +99,12 @@ Obtain dataset and collaborate within our group to answer a set of self-drafted 
 
 ## Findings:
 * Residual value is related to the lifespan of the *model*.
-* Possible explanation: novelty vs. substitution.
-* Best car to buy this year for resale next year?
+* Possible explanation: **novelty vs. substitution.**
+* **Best car to buy this year** for resale next year?
     * New-ish year of the newest model
     * Older year of an older model
 
-
+--------
 # List of Limitations
 1. Listings that were live on September 24, 2017 on Truecar.com
 2. Model Years between 1997-2017
