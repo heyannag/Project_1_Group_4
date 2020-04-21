@@ -36,8 +36,8 @@ Obtain dataset and collaborate within our group to answer a set of self-drafted 
 # Below you will find each individual's question, visualizations and the conclusions of the questions/findings. 
 --------
 
-# Vehicle Availability in TN and Surrounding Areas + General Trends, Catie Clark
-* What Nissan model is the most available in Tennessee? Altima is the most available used Nissan in Tennessee.
+# Vehicle Availability in TN and Surrounding Areas + General Trends | Catie Clark
+* What Nissan model is the most available in Tennessee? *Altima*
 
 ## Findings:
 * Prework, group the state by region/territory names for comparative analysis 
@@ -66,7 +66,7 @@ Obtain dataset and collaborate within our group to answer a set of self-drafted 
 ![Total Listsings by Model Year](PNG_Files/2_Total_Vehicles_by_Model_Year_bar.png)
 ![Total Listsings by Model Year(Scatter)](PNG_Files/2_Total_Vehicles_by_Model_Year.png)
 
-# Model Year and Mileage Impact on Price, Michael Cherkassky
+# Model Year and Mileage Impact on Price | Michael Cherkassky
 * What is the correlation between odometer reading and sale price for Nissan models?
 
 ## Findings:
@@ -77,7 +77,7 @@ Obtain dataset and collaborate within our group to answer a set of self-drafted 
 ![Mileage vs Resale Price](PNG_Files/3_Mileage_Resale_Price.png)
 ![Model Year vs Resale Price](PNG_Files/3_Model_Year_Resale_Price.png)
 
-# Model Year and Resale Price, Anna Givens
+# Model Year and Resale Price | Anna Givens
 * What is the relationship between Nissan model and resale price?
 
 ## Findings:
@@ -92,7 +92,7 @@ Obtain dataset and collaborate within our group to answer a set of self-drafted 
 
 ![Resale Price Distribution by Model](PNG_Files/4_Price_Distribution_Model.png)
 
-# Residual Value by Model and Model Year, John Patten
+# Residual Value by Model and Model Year | John Patten
 * What is the model depreciation over time as estimated by the listing price?
 
 ![Depreceiation by Model](PNG_Files/5_Depreceiation_by_Model.png)
